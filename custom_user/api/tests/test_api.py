@@ -12,6 +12,7 @@ from custom_user.api.serializers import UserProfileSerializer
 from custom_user.api.tests.setUp import SetUp
 from custom_user.models import CustomUser, IgnoreUser
 
+
 User = get_user_model()
 
 
@@ -167,6 +168,100 @@ class ProfileAPITestCase(APITestCase, SetUp):
         self.assertEqual(status.HTTP_403_FORBIDDEN, response.status_code)
         self.user_1.refresh_from_db()
         self.assertEqual('BeginnerA234', self.user_1.username)
+
+    def test_get_anonym_ignor_list(self):
+        url = reverse('profile-detail', args={'ignored_list', })
+        response = self.client.get(url)
+        self.assertEqual(status.HTTP_401_UNAUTHORIZED, response.status_code)
+
+    def test_get_owner_ignor_list(self):
+        url = reverse('profile-detail', args={'ignored_list', })
+        self.client.force_login(self.user_1)
+        response = self.client.get(url)
+        self.assertEqual(status.HTTP_200_OK, response.status_code)
+        self.assertEqual([], response.data)
+
+        url_ignore = reverse('ignore-user-list')
+        self.client.force_login(self.user_1)
+        before = IgnoreUser.objects.filter(user=self.user_1).count()
+        self.assertEqual(0, before)
+        data = {
+            'user': self.user_1.id,
+            'ignored_user': self.user_2.id,
+            'ignore': True
+        }
+        json_data = json.dumps(data)
+        self.client.post(url_ignore, data=json_data, content_type='application/json')
+        data = {
+            'user': self.user_1.id,
+            'ignored_user': self.user_3.id,
+            'ignore': True
+        }
+        json_data = json.dumps(data)
+        response = self.client.post(url_ignore, data=json_data, content_type='application/json')
+        after = IgnoreUser.objects.filter(user=self.user_1).count()
+        self.assertEqual(status.HTTP_201_CREATED, response.status_code)
+        self.assertEqual(2, after)
+
+
+        response = self.client.get(url)
+        self.assertEqual(status.HTTP_200_OK, response.status_code)
+        self.assertEqual(2, len(response.data))
+
+    def test_post_owner_ignor_list(self):
+        url_ignore = reverse('ignore-user-list')
+        self.client.force_login(self.user_1)
+        before = IgnoreUser.objects.filter(user=self.user_1).count()
+        self.assertEqual(0, before)
+        data = {
+            'user': self.user_1.id,
+            'ignored_user': self.user_3.id,
+            'ignore': True
+        }
+        json_data = json.dumps(data)
+        response = self.client.post(url_ignore, data=json_data, content_type='application/json')
+        after = IgnoreUser.objects.filter(user=self.user_1).count()
+        self.assertEqual(status.HTTP_201_CREATED, response.status_code)
+        self.assertEqual(1, after)
+
+        url = reverse('profile-detail', args={'ignored_list', })
+        response = self.client.get(url)
+        self.assertEqual(status.HTTP_200_OK, response.status_code)
+        self.assertEqual(1, len(response.data))
+        data = {
+            'ignored_user': self.user_3.id,
+        }
+        json_data = json.dumps(data)
+        response = self.client.post(url, data=json_data, content_type='application/json')
+        self.assertEqual(status.HTTP_200_OK, response.status_code)
+        self.assertEqual(0, len(response.data))
+
+    def test_unique_ignor_list(self):
+        url_ignore = reverse('ignore-user-list')
+        self.client.force_login(self.user_1)
+        data = {
+            'user': self.user_1.id,
+            'ignored_user': self.user_2.id,
+            'ignore': True
+        }
+        json_data = json.dumps(data)
+        self.client.post(url_ignore, data=json_data, content_type='application/json')
+        self.client.force_login(self.user_2)
+        data = {
+            'user': self.user_2.id,
+            'ignored_user': self.user_3.id,
+            'ignore': True
+        }
+        json_data = json.dumps(data)
+        self.client.post(url_ignore, data=json_data, content_type='application/json')
+        url = reverse('profile-detail', args={'ignored_list', })
+        self.client.force_login(self.user_1)
+        response_user_1 = self.client.get(url)
+
+        self.client.force_login(self.user_2)
+        response_user_2 = self.client.get(url)
+        self.assertNotEqual(response_user_1.data, response_user_2.data)
+
 
 
 class IgnoreUserTestCase(APITestCase):
