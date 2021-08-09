@@ -6,6 +6,7 @@ from PIL import Image
 from bs4 import BeautifulSoup
 
 
+"""Для пользователей Windows и Linux"""
 if os.sep == '\\':
     BASE_DIR = os.path.join(os.sep, os.path.dirname(__file__).replace('/', '\\'))
 else:
@@ -71,10 +72,8 @@ def get_json(names: list) -> None:
     data = {}
     n = 1
     for name, picture in zip(names, pictures):
-        print(picture)
         name = ''.join(name.replace('\n', ' ').strip())
         picture = '{}'.format(os.path.join(BASE_DIR, FLAG_DIR, picture))
-        print(picture)
 
         data[n] = {
             'name': name,
