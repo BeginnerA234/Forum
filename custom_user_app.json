@@ -1,0 +1,2398 @@
+[
+{
+  "model": "custom_user.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$9XA4NaNhN0btrJKzD4tLiJ$ddW1iesg916wSBeksNWUtafLVvh/QldY36q3//WpMcU=",
+    "last_login": null,
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:33.424Z",
+    "username": "admin",
+    "email": "admin@admin.com",
+    "country": null,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$GyGAfKcjmshyBHnE8hi5b6$M9E1RASoGOmqgF0Ctq6Xa4GpTbzOoBjAFi23s1dR1E0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Виктория",
+    "last_name": "Щербакова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:57.799Z",
+    "username": "Viktorijafj",
+    "email": "scherbakovaviktorija@yandex.ru",
+    "country": 115,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$3RQs92cwQvTuxGTc7GP7Wz$ZyodWBZaDT9l9A4fedE3cAUJZxHfdqghPHt0NG678fo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Екатерина",
+    "last_name": "Лопатина",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:57.987Z",
+    "username": "Ekaterinadj",
+    "email": "lopatinaekaterina@yandex.ru",
+    "country": 65,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$oXRjuG89AfgOV7IePc7UlA$Jvp/4oMkeo0Bp3xDwcr2LIPJM0fE+p048afI6q91rcw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Илья",
+    "last_name": "Королев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:58.168Z",
+    "username": "Il'jab",
+    "email": "korolevil'ja@yandex.ru",
+    "country": 23,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ZbUYqZb2TyWN1leJ1xKoVX$MuIgabItBfz32VUKjJZgUOih3ujMkfKwcatPkNNNSnk=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Лилия",
+    "last_name": "Кудрявцева",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:58.346Z",
+    "username": "Lilijaxxb",
+    "email": "kudrjavtsevalilija@yandex.ru",
+    "country": 48,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$9mRGVPFprTBmukVMNU17S0$3H/w73NCyC4ba7AN4iTmCryV8Qdv/EtU5/KXoLdxaEw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Милана",
+    "last_name": "Попова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:58.526Z",
+    "username": "Milanak",
+    "email": "popovamilana@gmail.com",
+    "country": 112,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$kF6nn6IULJ4bsw8gFELZxZ$JEtGPXUcJWOcSFAwHd5KsYTlBP4S8N77Bg1r9arbAeI=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Виктория",
+    "last_name": "Костина",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:58.706Z",
+    "username": "Viktorijaqs",
+    "email": "kostinaviktorija@gmail.com",
+    "country": 147,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$scC7EXV6TdzL5sFrDsPWV2$xvvpkLQwpg42X8SVuUG1VvEhkmcowFBjHhxzofMFmzQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Мирон",
+    "last_name": "Акимов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:58.892Z",
+    "username": "Mironkpj",
+    "email": "akimovmiron@yandex.ru",
+    "country": 204,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$2bv7SjzbjyqRv5qR3QmuL3$k5rBXSaY9JuhLMqBXXctMUUd6LGpqQB2TYoW3mmDBSQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Макар",
+    "last_name": "Сафонов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.067Z",
+    "username": "Makarg",
+    "email": "safonovmakar@yandex.ru",
+    "country": 138,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$xuuuApJk1aOTIa3nlOitml$CtZVFswaPR14qEb+blt2TO45Qi0qKQwcpvAo/d1pLaA=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Алексей",
+    "last_name": "Александров",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.242Z",
+    "username": "Aleksejx",
+    "email": "aleksandrovaleksej@mail.ru",
+    "country": 98,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$gWNPb8wpKbLaN94PiXsXjX$JMmZObX7iAP1xNk84DnMgQfTmAYMxDLMl4YEa2+NVjU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Дмитрий",
+    "last_name": "Меркулов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.419Z",
+    "username": "Dmitrijnaf",
+    "email": "merkulovdmitrij@yandex.ru",
+    "country": 188,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$tXMpCm6VfSRHITGhs6H0JV$b2FqvEX7QJbTwyoP1iieRmpAI0F8jbfkC4i5SrLM3ZQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Сергей",
+    "last_name": "Елизаров",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.597Z",
+    "username": "Sergejn",
+    "email": "elizarovsergej@mail.ru",
+    "country": 199,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$L3nBH20eXeaHKOF4up6hog$o4Kb7oJAwQ4VRJh4TzLfjRJY55XgOeCFw/zOIvxwlYo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Артём",
+    "last_name": "Власов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.777Z",
+    "username": "Artemg",
+    "email": "vlasovartem@gmail.com",
+    "country": 189,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$G22Rximjubf6QCYGKAhC6p$wlt6M8eePHg6hr2/YJ2RY0S65myV5wqCCFCPTFoYGjQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Арсений",
+    "last_name": "Морозов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:10:59.952Z",
+    "username": "Arsenijr",
+    "email": "morozovarsenij@gmail.com",
+    "country": 3,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$m8DYygGmm4v8AKoi7pkA4R$mBs5DHsruVam/OYBmgxXO74wpUZvcjV1JYiYHeTTubg=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Анна",
+    "last_name": "Короткова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:00.131Z",
+    "username": "Annawrw",
+    "email": "korotkovaanna@gmail.com",
+    "country": 35,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$AzEP1n0Pfp5SCiClJcYYw6$ycd1ajOtsWk3ECfStvHMdEkbC473FwyUQ8xd/4MT2gY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Артемий",
+    "last_name": "Яковлев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:00.307Z",
+    "username": "Artemijcm",
+    "email": "jakovlevartemij@mail.ru",
+    "country": 68,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$l7UI1qd3itIXh5cSrZ2ue2$l5iIqHwc8i5KeYx6xGrPUWem+7hrXBYOzAQCWelQKAU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Елисей",
+    "last_name": "Панфилов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:00.484Z",
+    "username": "Elisejzh",
+    "email": "panfilovelisej@yandex.ru",
+    "country": 114,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$u7bCldIKOuY6Ld0zQ1jfUL$Hepvm3Nz9JjH4udQMlNM0HOxAule2fVzDIJiFX5Aigk=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Максим",
+    "last_name": "Петров",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:00.664Z",
+    "username": "Maksims",
+    "email": "petrovmaksim@mail.ru",
+    "country": 179,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$dSQatdTmwuHohCKsZYHMSs$E4hvoGZHJjKPCw6lLAsDCy3tAOEvhMJZs+12yX3rHcM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Айлин",
+    "last_name": "Савельева",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:00.844Z",
+    "username": "Ajlincrp",
+    "email": "savel'evaajlin@gmail.com",
+    "country": 168,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$prvJfB1ilx8qjSzMk2MzCo$+f7IKDjFo4tXirm6ItWLZScCeos7zu7SqRo4OvjXxuU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Максим",
+    "last_name": "Жуков",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.023Z",
+    "username": "Maksimq",
+    "email": "zhukovmaksim@mail.ru",
+    "country": 23,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$0R2RZVF1FT9p17MLtKpqSH$9K+XljT5hTQdhV2dKIW5cF5rAiwhES1uJxe6FJ2Iv9w=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Александр",
+    "last_name": "Петров",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.201Z",
+    "username": "Aleksandrxq",
+    "email": "petrovaleksandr@yandex.ru",
+    "country": 51,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$jBiBpTJfN57KjP244FW1Tu$VUBN3cKTWiLv7IeXu/8Vd5gslNt5gBFUhtV7Vd3wKKY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Алексей",
+    "last_name": "Новиков",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.382Z",
+    "username": "Aleksejsn",
+    "email": "novikovaleksej@yandex.ru",
+    "country": 40,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$hlGILdRhsyg1whtEmgoZ5e$g0ppY1f/r3CTN4jCZFPMuJNsDs8STqyLoWtdthtVv0A=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Агата",
+    "last_name": "Хохлова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.562Z",
+    "username": "Agatat",
+    "email": "hohlovaagata@yandex.ru",
+    "country": 16,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$4HBg2gTO8IlwoeJq4mfbkI$EUYFd7U4aKJ2cBYeZ5VgxyKPcxSxI/I2o6v3wLUJGWE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Евгений",
+    "last_name": "Соколов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.742Z",
+    "username": "Evgenijzb",
+    "email": "sokolovevgenij@gmail.com",
+    "country": 6,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$KjTOt4hcBGU47saNwkyuZz$sCl/23feLJIjZ7TErU3UZh3GWrC1cCq4D1Ed2iXRNSE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Станислав",
+    "last_name": "Медведев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:01.924Z",
+    "username": "Stanislavu",
+    "email": "medvedevstanislav@gmail.com",
+    "country": 59,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$uhlY6iZlChQpzsZFNhH9YI$crzBEY5eWJT2H5jPli/SDAGKSoil6v0VRMNE8TmKYF0=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Варвара",
+    "last_name": "Головина",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.101Z",
+    "username": "Varvaras",
+    "email": "golovinavarvara@gmail.com",
+    "country": 42,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$JZO9LOQUleccgH0gk76yVO$LRBVlbi6oL2bOcxXjiru4zKj850Xh2a/E+kqQb5y7Qs=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Татьяна",
+    "last_name": "Дмитриева",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.279Z",
+    "username": "Tat'janahu",
+    "email": "dmitrievatat'jana@mail.ru",
+    "country": 154,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$e5rK3hZhVKDAIgpreqIkLt$xQ5BQ97rHd1Ndhn0tZ4bS+Jk2sVTU7KlAktKEWF0nfE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Есения",
+    "last_name": "Иванова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.459Z",
+    "username": "Esenijak",
+    "email": "ivanovaesenija@gmail.com",
+    "country": 23,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 29,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$WkQVn38QChfLshXzMkKvEu$9g+PLNFGor5VwepeR1IV8oIPTOzckNeHeUxPcqVEyUM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Максим",
+    "last_name": "Макаров",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.638Z",
+    "username": "Maksimr",
+    "email": "makarovmaksim@mail.ru",
+    "country": 9,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 30,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$qilVjCXJMmgoDTXKy101vb$kUqsKRyPF7RqkznWQT1/pdkS6Z/AC5QFQtFiWNZi8nU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Матвей",
+    "last_name": "Маслов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.817Z",
+    "username": "Matvejkqn",
+    "email": "maslovmatvej@gmail.com",
+    "country": 101,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 31,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$OhLb3khTDk4wUlr0bnx0hk$hHfgTXLinxbDiLMxZf3RThzqTKmr/yTteIyrQgGPkiM=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Евгения",
+    "last_name": "Широкова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:02.999Z",
+    "username": "Evgenijaqa",
+    "email": "shirokovaevgenija@gmail.com",
+    "country": 110,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 32,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ZYr0CpQKSTW6w8EPmGqjCo$O2wM0IHrTUEjUZ38Gaaa22TEbECaq3kpl/Wm1qhVAzA=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Варвара",
+    "last_name": "Федорова",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:03.181Z",
+    "username": "Varvarattr",
+    "email": "fedorovavarvara@yandex.ru",
+    "country": 127,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 33,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$sxCZ6eTCnrLoimJc5kbSIy$caXR5o8tEMfk05hItsMPbDVzPalVDhfaP7xqmH2l7hg=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Сергей",
+    "last_name": "Антонов",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:03.361Z",
+    "username": "Sergejx",
+    "email": "antonovsergej@gmail.com",
+    "country": 146,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.customuser",
+  "pk": 34,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$Oak7oYbXQVwV7dfGZo3Vsj$7nuoDKWjQhFjgX+ZOkGFqSnMusg52+78pnP/8GMLFrY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Василиса",
+    "last_name": "Зайцева",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-08-09T23:11:03.541Z",
+    "username": "Vasilisagl",
+    "email": "zajtsevavasilisa@yandex.ru",
+    "country": 117,
+    "phone": null,
+    "is_blocked": false,
+    "groups": [],
+    "user_permissions": [],
+    "follow": []
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 1,
+  "fields": {
+    "name": "Абхазия",
+    "picture": "countries/Абхазия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 2,
+  "fields": {
+    "name": "Австралия",
+    "picture": "countries/Австралия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 3,
+  "fields": {
+    "name": "Австрия",
+    "picture": "countries/Австрия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 4,
+  "fields": {
+    "name": "Азербайджан",
+    "picture": "countries/Азербайджан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 5,
+  "fields": {
+    "name": "Албания",
+    "picture": "countries/Албания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 6,
+  "fields": {
+    "name": "Алжир",
+    "picture": "countries/Алжир.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 7,
+  "fields": {
+    "name": "Ангола",
+    "picture": "countries/Ангола.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 8,
+  "fields": {
+    "name": "Андорра",
+    "picture": "countries/Андорра.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 9,
+  "fields": {
+    "name": "Антигуа и Барбуда",
+    "picture": "countries/Антигуа_и_Барбуда.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 10,
+  "fields": {
+    "name": "Аргентина",
+    "picture": "countries/Аргентина.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 11,
+  "fields": {
+    "name": "Армения",
+    "picture": "countries/Армения.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 12,
+  "fields": {
+    "name": "Аруба",
+    "picture": "countries/Аруба.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 13,
+  "fields": {
+    "name": "Афганистан",
+    "picture": "countries/Афганистан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 14,
+  "fields": {
+    "name": "Багамы",
+    "picture": "countries/Багамы.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 15,
+  "fields": {
+    "name": "Бангладеш",
+    "picture": "countries/Бангладеш.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 16,
+  "fields": {
+    "name": "Барбадос",
+    "picture": "countries/Барбадос.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 17,
+  "fields": {
+    "name": "Бахрейн",
+    "picture": "countries/Бахрейн.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 18,
+  "fields": {
+    "name": "Беларусь",
+    "picture": "countries/Беларусь.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 19,
+  "fields": {
+    "name": "Белиз",
+    "picture": "countries/Белиз.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 20,
+  "fields": {
+    "name": "Бельгия",
+    "picture": "countries/Бельгия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 21,
+  "fields": {
+    "name": "Бенин",
+    "picture": "countries/Бенин.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 22,
+  "fields": {
+    "name": "Бермудские острова",
+    "picture": "countries/Бермудские_острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 23,
+  "fields": {
+    "name": "Болгария",
+    "picture": "countries/Болгария.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 24,
+  "fields": {
+    "name": "Боливия",
+    "picture": "countries/Боливия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 25,
+  "fields": {
+    "name": "Босния и Герцеговина",
+    "picture": "countries/Босния_и_Герцеговина.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 26,
+  "fields": {
+    "name": "Ботсвана",
+    "picture": "countries/Ботсвана.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 27,
+  "fields": {
+    "name": "Бразилия",
+    "picture": "countries/Бразилия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 28,
+  "fields": {
+    "name": "Бруней",
+    "picture": "countries/Бруней.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 29,
+  "fields": {
+    "name": "Буркина Фасо",
+    "picture": "countries/Буркина_Фасо.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 30,
+  "fields": {
+    "name": "Бурунди",
+    "picture": "countries/Бурунди.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 31,
+  "fields": {
+    "name": "Бутан",
+    "picture": "countries/Бутан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 32,
+  "fields": {
+    "name": "Вануату",
+    "picture": "countries/Вануату.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 33,
+  "fields": {
+    "name": "Ватикан",
+    "picture": "countries/Ватикан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 34,
+  "fields": {
+    "name": "Великобритания",
+    "picture": "countries/Великобритания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 35,
+  "fields": {
+    "name": "Венгрия",
+    "picture": "countries/Венгрия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 36,
+  "fields": {
+    "name": "Венесуэла",
+    "picture": "countries/Венесуэла.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 37,
+  "fields": {
+    "name": "Вьетнам",
+    "picture": "countries/Вьетнам.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 38,
+  "fields": {
+    "name": "Габон",
+    "picture": "countries/Габон.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 39,
+  "fields": {
+    "name": "Гавайские острова",
+    "picture": "countries/Гавайские_острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 40,
+  "fields": {
+    "name": "Гайана",
+    "picture": "countries/Гаити.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 41,
+  "fields": {
+    "name": "Гаити",
+    "picture": "countries/Гайана.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 42,
+  "fields": {
+    "name": "Гамбия",
+    "picture": "countries/Гамбия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 43,
+  "fields": {
+    "name": "Гана",
+    "picture": "countries/Гана.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 44,
+  "fields": {
+    "name": "Гваделупа",
+    "picture": "countries/Гваделупа.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 45,
+  "fields": {
+    "name": "Гватемала",
+    "picture": "countries/Гватемала.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 46,
+  "fields": {
+    "name": "Гвинея",
+    "picture": "countries/Гвинея-Бисау.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 47,
+  "fields": {
+    "name": "Гвинея-Бисау",
+    "picture": "countries/Гвинея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 48,
+  "fields": {
+    "name": "Германия",
+    "picture": "countries/Германия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 49,
+  "fields": {
+    "name": "Гондурас",
+    "picture": "countries/Гондурас.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 50,
+  "fields": {
+    "name": "Гонконг",
+    "picture": "countries/Гонконг.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 51,
+  "fields": {
+    "name": "Гренада",
+    "picture": "countries/Гренада.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 52,
+  "fields": {
+    "name": "Греция",
+    "picture": "countries/Греция.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 53,
+  "fields": {
+    "name": "Грузия",
+    "picture": "countries/Грузия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 54,
+  "fields": {
+    "name": "Дания",
+    "picture": "countries/Дания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 55,
+  "fields": {
+    "name": "Джибути",
+    "picture": "countries/Джибути.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 56,
+  "fields": {
+    "name": "Доминика",
+    "picture": "countries/Доминика.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 57,
+  "fields": {
+    "name": "Доминикана",
+    "picture": "countries/Доминикана.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 58,
+  "fields": {
+    "name": "Египет",
+    "picture": "countries/Египет.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 59,
+  "fields": {
+    "name": "Замбия",
+    "picture": "countries/Замбия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 60,
+  "fields": {
+    "name": "Зимбабве",
+    "picture": "countries/Зимбабве.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 61,
+  "fields": {
+    "name": "Израиль",
+    "picture": "countries/Израиль.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 62,
+  "fields": {
+    "name": "Индия",
+    "picture": "countries/Индия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 63,
+  "fields": {
+    "name": "Индонезия",
+    "picture": "countries/Индонезия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 64,
+  "fields": {
+    "name": "Иордания",
+    "picture": "countries/Иордания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 65,
+  "fields": {
+    "name": "Ирак",
+    "picture": "countries/Ирак.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 66,
+  "fields": {
+    "name": "Иран",
+    "picture": "countries/Иран.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 67,
+  "fields": {
+    "name": "Ирландия",
+    "picture": "countries/Ирландия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 68,
+  "fields": {
+    "name": "Исландия",
+    "picture": "countries/Исландия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 69,
+  "fields": {
+    "name": "Испания",
+    "picture": "countries/Испания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 70,
+  "fields": {
+    "name": "Италия",
+    "picture": "countries/Италия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 71,
+  "fields": {
+    "name": "Йемен",
+    "picture": "countries/Йемен.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 72,
+  "fields": {
+    "name": "Кабо-Верде",
+    "picture": "countries/Кабо-Верде.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 73,
+  "fields": {
+    "name": "Казахстан",
+    "picture": "countries/Казахстан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 74,
+  "fields": {
+    "name": "Каймановы острова",
+    "picture": "countries/Каймановы_острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 75,
+  "fields": {
+    "name": "Камбоджа",
+    "picture": "countries/Камбоджа.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 76,
+  "fields": {
+    "name": "Камерун",
+    "picture": "countries/Камерун.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 77,
+  "fields": {
+    "name": "Канада",
+    "picture": "countries/Канада.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 78,
+  "fields": {
+    "name": "Канарские острова",
+    "picture": "countries/Канарские_острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 79,
+  "fields": {
+    "name": "Катар",
+    "picture": "countries/Катар.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 80,
+  "fields": {
+    "name": "Кения",
+    "picture": "countries/Кения.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 81,
+  "fields": {
+    "name": "Кипр",
+    "picture": "countries/Кипр.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 82,
+  "fields": {
+    "name": "Киргизия",
+    "picture": "countries/Киргизия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 83,
+  "fields": {
+    "name": "Кирибати",
+    "picture": "countries/Кирибати.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 84,
+  "fields": {
+    "name": "Китай",
+    "picture": "countries/Китай.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 85,
+  "fields": {
+    "name": "Колумбия",
+    "picture": "countries/Колумбия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 86,
+  "fields": {
+    "name": "Коморы",
+    "picture": "countries/Коморы.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 87,
+  "fields": {
+    "name": "Конго",
+    "picture": "countries/Конго-Киншаса.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 88,
+  "fields": {
+    "name": "Конго-Киншаса",
+    "picture": "countries/Конго.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 89,
+  "fields": {
+    "name": "Коста-Рика",
+    "picture": "countries/Коста-Рика.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 90,
+  "fields": {
+    "name": "Кот-д’Ивуар",
+    "picture": "countries/Кот-дИвуар.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 91,
+  "fields": {
+    "name": "Куба",
+    "picture": "countries/Куба.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 92,
+  "fields": {
+    "name": "Кувейт",
+    "picture": "countries/Кувейт.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 93,
+  "fields": {
+    "name": "Лаос",
+    "picture": "countries/Лаос.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 94,
+  "fields": {
+    "name": "Латвия",
+    "picture": "countries/Латвия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 95,
+  "fields": {
+    "name": "Лесото",
+    "picture": "countries/Лесото.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 96,
+  "fields": {
+    "name": "Либерия",
+    "picture": "countries/Либерия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 97,
+  "fields": {
+    "name": "Ливан",
+    "picture": "countries/Ливан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 98,
+  "fields": {
+    "name": "Ливия",
+    "picture": "countries/Ливия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 99,
+  "fields": {
+    "name": "Литва",
+    "picture": "countries/Литва.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 100,
+  "fields": {
+    "name": "Лихтенштейн",
+    "picture": "countries/Лихтенштейн.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 101,
+  "fields": {
+    "name": "Люксембург",
+    "picture": "countries/Люксембург.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 102,
+  "fields": {
+    "name": "Маврикий",
+    "picture": "countries/Маврикий.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 103,
+  "fields": {
+    "name": "Мавритания",
+    "picture": "countries/Мавритания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 104,
+  "fields": {
+    "name": "Мадагаскар",
+    "picture": "countries/Мадагаскар.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 105,
+  "fields": {
+    "name": "Малави",
+    "picture": "countries/Малави.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 106,
+  "fields": {
+    "name": "Малайзия",
+    "picture": "countries/Малайзия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 107,
+  "fields": {
+    "name": "Мали",
+    "picture": "countries/Мали.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 108,
+  "fields": {
+    "name": "Мальдивы",
+    "picture": "countries/Мальдивы.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 109,
+  "fields": {
+    "name": "Мальта",
+    "picture": "countries/Мальта.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 110,
+  "fields": {
+    "name": "Марокко",
+    "picture": "countries/Марокко.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 111,
+  "fields": {
+    "name": "Мартиника",
+    "picture": "countries/Мартиника.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 112,
+  "fields": {
+    "name": "Маршалловы острова",
+    "picture": "countries/Маршалловы_острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 113,
+  "fields": {
+    "name": "Мексика",
+    "picture": "countries/Мексика.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 114,
+  "fields": {
+    "name": "Мозамбик",
+    "picture": "countries/Мозамбик.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 115,
+  "fields": {
+    "name": "Молдова",
+    "picture": "countries/Молдова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 116,
+  "fields": {
+    "name": "Монако",
+    "picture": "countries/Монако.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 117,
+  "fields": {
+    "name": "Монголия",
+    "picture": "countries/Монголия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 118,
+  "fields": {
+    "name": "Мьянма",
+    "picture": "countries/Мьянма.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 119,
+  "fields": {
+    "name": "Намибия",
+    "picture": "countries/Намибия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 120,
+  "fields": {
+    "name": "Науру",
+    "picture": "countries/Науру.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 121,
+  "fields": {
+    "name": "Непал",
+    "picture": "countries/Непал.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 122,
+  "fields": {
+    "name": "Нигер",
+    "picture": "countries/Нигер.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 123,
+  "fields": {
+    "name": "Нигерия",
+    "picture": "countries/Нигерия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 124,
+  "fields": {
+    "name": "Нидерланды",
+    "picture": "countries/Нидерланды.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 125,
+  "fields": {
+    "name": "Никарагуа",
+    "picture": "countries/Никарагуа.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 126,
+  "fields": {
+    "name": "Новая Зеландия",
+    "picture": "countries/Новая_Зеландия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 127,
+  "fields": {
+    "name": "Норвегия",
+    "picture": "countries/Норвегия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 128,
+  "fields": {
+    "name": "ОАЭ",
+    "picture": "countries/ОАЭ.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 129,
+  "fields": {
+    "name": "Оман",
+    "picture": "countries/Оман.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 130,
+  "fields": {
+    "name": "Остров Святой Елены",
+    "picture": "countries/Остров_Святой_Елены.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 131,
+  "fields": {
+    "name": "Пакистан",
+    "picture": "countries/Пакистан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 132,
+  "fields": {
+    "name": "Палау",
+    "picture": "countries/Палау.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 133,
+  "fields": {
+    "name": "Панама",
+    "picture": "countries/Панама.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 134,
+  "fields": {
+    "name": "Папуа - Новая Гвинея",
+    "picture": "countries/Папуа_-_Новая_Гвинея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 135,
+  "fields": {
+    "name": "Парагвай",
+    "picture": "countries/Парагвай.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 136,
+  "fields": {
+    "name": "Перу",
+    "picture": "countries/Перу.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 137,
+  "fields": {
+    "name": "Польша",
+    "picture": "countries/Польша.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 138,
+  "fields": {
+    "name": "Португалия",
+    "picture": "countries/Португалия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 139,
+  "fields": {
+    "name": "Пуэрто-Рико",
+    "picture": "countries/Пуэрто-Рико.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 140,
+  "fields": {
+    "name": "Реюньон",
+    "picture": "countries/Реюньон.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 141,
+  "fields": {
+    "name": "Россия",
+    "picture": "countries/Россия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 142,
+  "fields": {
+    "name": "Руанда",
+    "picture": "countries/Руанда.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 143,
+  "fields": {
+    "name": "Румыния",
+    "picture": "countries/Румыния.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 144,
+  "fields": {
+    "name": "Сальвадор",
+    "picture": "countries/США.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 145,
+  "fields": {
+    "name": "Самоа",
+    "picture": "countries/Сальвадор.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 146,
+  "fields": {
+    "name": "Сан-Марино",
+    "picture": "countries/Самоа.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 147,
+  "fields": {
+    "name": "Сан-Томе и Принсипи",
+    "picture": "countries/Сан-Марино.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 148,
+  "fields": {
+    "name": "Саудовская Аравия",
+    "picture": "countries/Сан-Томе_и_Принсипи.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 149,
+  "fields": {
+    "name": "Свазиленд",
+    "picture": "countries/Саудовская_Аравия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 150,
+  "fields": {
+    "name": "Северная Корея",
+    "picture": "countries/Свазиленд.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 151,
+  "fields": {
+    "name": "Северная Македония",
+    "picture": "countries/Северная_Корея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 152,
+  "fields": {
+    "name": "Сейшелы",
+    "picture": "countries/Северная_Македония.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 153,
+  "fields": {
+    "name": "Сенегал",
+    "picture": "countries/Сейшелы.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 154,
+  "fields": {
+    "name": "Сен-Мартен",
+    "picture": "countries/Сен-Мартен.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 155,
+  "fields": {
+    "name": "Сент-Винсент и Гренадины",
+    "picture": "countries/Сенегал.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 156,
+  "fields": {
+    "name": "Сент-Китс и Невис",
+    "picture": "countries/Сент-Винсент_и_Гренадины.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 157,
+  "fields": {
+    "name": "Сент-Люсия",
+    "picture": "countries/Сент-Китс_и_Невис.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 158,
+  "fields": {
+    "name": "Сербия",
+    "picture": "countries/Сент-Люсия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 159,
+  "fields": {
+    "name": "Сингапур",
+    "picture": "countries/Сербия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 160,
+  "fields": {
+    "name": "Сирия",
+    "picture": "countries/Сингапур.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 161,
+  "fields": {
+    "name": "Словакия",
+    "picture": "countries/Сирия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 162,
+  "fields": {
+    "name": "Словения",
+    "picture": "countries/Словакия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 163,
+  "fields": {
+    "name": "Соломоновы Острова",
+    "picture": "countries/Словения.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 164,
+  "fields": {
+    "name": "Сомали",
+    "picture": "countries/Соломоновы_Острова.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 165,
+  "fields": {
+    "name": "Судан",
+    "picture": "countries/Сомали.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 166,
+  "fields": {
+    "name": "Суринам",
+    "picture": "countries/Судан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 167,
+  "fields": {
+    "name": "США",
+    "picture": "countries/Суринам.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 168,
+  "fields": {
+    "name": "Сьерра-Леоне",
+    "picture": "countries/Сьерра-Леоне.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 169,
+  "fields": {
+    "name": "Таджикистан",
+    "picture": "countries/Таджикистан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 170,
+  "fields": {
+    "name": "Тайвань",
+    "picture": "countries/Тайвань.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 171,
+  "fields": {
+    "name": "Тайланд",
+    "picture": "countries/Тайланд.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 172,
+  "fields": {
+    "name": "Танзания",
+    "picture": "countries/Танзания.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 173,
+  "fields": {
+    "name": "Того",
+    "picture": "countries/Того.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 174,
+  "fields": {
+    "name": "Тонга",
+    "picture": "countries/Тонга.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 175,
+  "fields": {
+    "name": "Тринидад и Тобаго",
+    "picture": "countries/Тринидад_и_Тобаго.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 176,
+  "fields": {
+    "name": "Тувалу",
+    "picture": "countries/Тувалу.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 177,
+  "fields": {
+    "name": "Тунис",
+    "picture": "countries/Тунис.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 178,
+  "fields": {
+    "name": "Туркменистан",
+    "picture": "countries/Туркменистан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 179,
+  "fields": {
+    "name": "Турция",
+    "picture": "countries/Турция.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 180,
+  "fields": {
+    "name": "Уганда",
+    "picture": "countries/Уганда.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 181,
+  "fields": {
+    "name": "Узбекистан",
+    "picture": "countries/Узбекистан.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 182,
+  "fields": {
+    "name": "Украина",
+    "picture": "countries/Украина.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 183,
+  "fields": {
+    "name": "Уоллис и Футуна",
+    "picture": "countries/Уоллис_и_Футуна.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 184,
+  "fields": {
+    "name": "Уругвай",
+    "picture": "countries/Уругвай.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 185,
+  "fields": {
+    "name": "Фиджи",
+    "picture": "countries/Фиджи.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 186,
+  "fields": {
+    "name": "Филиппины",
+    "picture": "countries/Филиппины.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 187,
+  "fields": {
+    "name": "Финляндия",
+    "picture": "countries/Финляндия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 188,
+  "fields": {
+    "name": "Франция",
+    "picture": "countries/Франция.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 189,
+  "fields": {
+    "name": "Хорватия",
+    "picture": "countries/Хорватия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 190,
+  "fields": {
+    "name": "Центрально-африканская  республика",
+    "picture": "countries/Центрально-африканская__республика.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 191,
+  "fields": {
+    "name": "Чад",
+    "picture": "countries/Чад.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 192,
+  "fields": {
+    "name": "Черногория",
+    "picture": "countries/Черногория.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 193,
+  "fields": {
+    "name": "Чехия",
+    "picture": "countries/Чехия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 194,
+  "fields": {
+    "name": "Чили",
+    "picture": "countries/Чили.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 195,
+  "fields": {
+    "name": "Швейцария",
+    "picture": "countries/Швейцария.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 196,
+  "fields": {
+    "name": "Швеция",
+    "picture": "countries/Швеция.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 197,
+  "fields": {
+    "name": "Шри-Ланка",
+    "picture": "countries/Шри-Ланка.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 198,
+  "fields": {
+    "name": "Эквадор",
+    "picture": "countries/Эквадор.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 199,
+  "fields": {
+    "name": "Экваториальная Гвинея",
+    "picture": "countries/Экваториальная_Гвинея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 200,
+  "fields": {
+    "name": "Эритрея",
+    "picture": "countries/Эритрея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 201,
+  "fields": {
+    "name": "Эстония",
+    "picture": "countries/Эстония.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 202,
+  "fields": {
+    "name": "Эфиопия",
+    "picture": "countries/Эфиопия.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 203,
+  "fields": {
+    "name": "ЮАР",
+    "picture": "countries/ЮАР.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 204,
+  "fields": {
+    "name": "Южная Корея",
+    "picture": "countries/Южная_Корея.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 205,
+  "fields": {
+    "name": "Ямайка",
+    "picture": "countries/Ямайка.jpg"
+  }
+},
+{
+  "model": "custom_user.country",
+  "pk": 206,
+  "fields": {
+    "name": "Япония",
+    "picture": "countries/Япония.jpg"
+  }
+}
+]
