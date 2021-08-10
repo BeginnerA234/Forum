@@ -36,7 +36,7 @@ python manage.py runserver
 ```
 Запустить скрипт load_data.sh
 #админка
-Username - admin
+username - admin
 password - admin
 email - admin@admin.com
 
