@@ -52,7 +52,7 @@ python manage.py loaddata forum_app.json
 python manage.py createsuperuser # username и email обязателен к заполнению
 ```
 
-##PS: Если был сделан дамп, команды ниже не пригодятся
+## PS: Если был сделан дамп, команды ниже не пригодятся
 ### Дополнительные команды 
 ```
 python manage.py load_country # Заполнение БД странами и флагами
