@@ -1,7 +1,18 @@
-# forum
+<h1 style="text-align: center">FORUM</h1>
+<h2 style="text-align: center">О проекте</h2>
+
+
+
+<div style="text-align: center">Планируется форум, который будет конкурировать с социальными сетями!</div>
+<div style="text-align: center">Это то самое место, куда можно зайти после тяжелого рабочего дня =(</div>
+<div style="text-align: center">Зарегистрировать аккаунт и беседовать с людьми с разных уголков мира на абсолютно любые темы!</div>
+
+
 
 # Что реализовано
 * Регистрация пользователя
+* Авторизация по двум полям - username/email
+* Цитирование с сохранением id комментария - в разработке API
 * ```to be continue```
 
 ### Установка
@@ -19,6 +30,21 @@ pip install -r requirements.txt # Перед командой активиров
 ### Запуск
 ```
 python manage.py runserver
+```
+
+### Дамп БД
+```
+Запустить скрипт load_data.sh
+#админка
+Username - admin
+password - admin
+email - admin@admin.com
+
+Если скрипт не запустился:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata custom_user_app.json
+python manage.py loaddata forum_app.json
 ```
 
 ### Создание администратора
