@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -92,9 +91,6 @@ DATABASES = {
     }
 }
 
-
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -171,7 +167,6 @@ INTERNAL_IPS = [
     '127.0.0.1',
 ]
 
-
 # SMTP
 EMAIL_HOST = os.getenv('EMAIL_HOST', 'django.core.mail.backends.console.EmailBackend')
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
@@ -179,4 +174,3 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = os.getenv('EMAIL_PORT')
 EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', False)
 EMAIL_USE_SSL = os.getenv('EMAIL_USE_SSL')
-
