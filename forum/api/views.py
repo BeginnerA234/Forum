@@ -1,20 +1,18 @@
-from rest_framework import mixins
+from rest_framework.decorators import action
+from rest_framework.viewsets import ModelViewSet
 
-from rest_framework import viewsets
-
-from forum.api.permissions import IsOwnerNotBlockedOrStaff
-from forum.api.serializers import ChapterAndSubSectionSerializer, CreateThemeSerializer
-from forum.models import Chapter, Theme
+from forum.api.serializers import ChapterAndSubSectionSerializer
+from forum.models import Chapter
 
 
-class ChapterAndSubSectionListView(mixins.ListModelMixin,
-                                   viewsets.GenericViewSet):
+class ChapterAndSubSectionListView(ModelViewSet):
+    """
+    Вьюха, которая выводит разделы и подразделы
+    """
     queryset = Chapter.objects.all().prefetch_related('chapter').order_by('id')
     serializer_class = ChapterAndSubSectionSerializer
 
 
-class CreateThemeView(mixins.CreateModelMixin,
-                      viewsets.GenericViewSet):
-    queryset = Theme.objects.all()
-    serializer_class = CreateThemeSerializer
-    permission_classes = [IsOwnerNotBlockedOrStaff,]
+    @action(detail=True, methods=['GET'])
+    def sub_section(self, request, pk=None):
+        print(request)
