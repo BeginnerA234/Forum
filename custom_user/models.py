@@ -27,13 +27,15 @@ class CustomUser(AbstractUser):
                                   'unique': 'Пользователь с данным емейлом уже существует'
                               })
 
-    country = models.ForeignKey('Country', null=True, blank=True, on_delete=models.SET_NULL, verbose_name='Страна')
+    country = models.ForeignKey('Country', null=True, blank=True,
+                                on_delete=models.SET_NULL, verbose_name='Страна')
 
     phone = models.CharField(max_length=11, verbose_name='Номер телефона',
                              null=True, blank=True)
 
     is_blocked = models.BooleanField('Заблокировать пользователя', default=False)
-    follow = models.ManyToManyField('self', related_name='follows', symmetrical=False, blank=True)
+    follow = models.ManyToManyField('self', related_name='follows',
+                                    symmetrical=False, blank=True)
 
     objects = CustomUserManager()
 
@@ -55,7 +57,8 @@ class Country(models.Model):
     Поле picture временно может быть пустым`
     """
     name = models.CharField(verbose_name='Страна', max_length=55, unique=True)
-    picture = models.ImageField(verbose_name='Флаг', blank=True, null=True, upload_to='countries')
+    picture = models.ImageField(verbose_name='Флаг', blank=True,
+                                null=True, upload_to='countries')
 
     class Meta:
         verbose_name = 'Страна'
