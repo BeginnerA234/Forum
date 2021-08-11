@@ -2,6 +2,7 @@ from django.db.models import Count
 from rest_framework import mixins, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from rest_framework.viewsets import GenericViewSet
 
@@ -13,13 +14,20 @@ from custom_user.api.permissions import (
 from custom_user.api.serializers import UserProfileSerializer, IgnoreUserSerializer, UserRegisterSerializer, \
     CountrySerializer
 from custom_user.models import CustomUser, IgnoreUser, Country
+from custom_user.services.email import send
 from custom_user.services.remove_user_from_ignore import remove_user_from_ignore
 
 
-class UserRegisterView(mixins.CreateModelMixin,
-                       GenericViewSet):
-    serializer_class = UserRegisterSerializer
-    queryset = CustomUser.objects.all()
+
+class UserRegisterAPIView(APIView):
+
+    def post(self, request, format=None):
+        serializer = UserRegisterSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            send(request)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 class UserProfileRetrieveView(mixins.RetrieveModelMixin,
