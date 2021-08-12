@@ -6,7 +6,7 @@ def custom_username_validator(username):
     """
     Исключаем возможность записи емейлов в username
     """
-    if re.fullmatch('\\w+@\\w+.\\w+', username):
+    if re.fullmatch('\\w+@\\w+.?\\w+', username):
         raise ValidationError(['Имя пользователя cхож с емейлом.', 'Пожалуйста придумайте другой логин'])
 
 
