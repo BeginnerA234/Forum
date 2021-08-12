@@ -19,7 +19,7 @@ User = get_user_model()
 class UserCreateAPITestCase(APITestCase):
 
     def setUp(self):
-        self.url = reverse('register-list')
+        self.url = reverse('register')
 
     def test_response(self):
         get = self.client.get(self.url)

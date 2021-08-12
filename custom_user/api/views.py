@@ -18,10 +18,13 @@ from custom_user.services.email import send
 from custom_user.services.remove_user_from_ignore import remove_user_from_ignore
 
 
-
 class UserRegisterAPIView(APIView):
+    """
+    Регистрация пользователя.
+    При успешной регистрации отправляем письмо
+    """
 
-    def post(self, request, format=None):
+    def post(self, request):
         serializer = UserRegisterSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -61,13 +64,21 @@ class IgnoreUserViewSet(mixins.CreateModelMixin,
                         mixins.RetrieveModelMixin,
                         mixins.UpdateModelMixin,
                         GenericViewSet):
+    """
+    API позволяющая игнорировать пользователя.
+    Добавлять, просматривать и обновлять может только owner
+    """
     serializer_class = IgnoreUserSerializer
     queryset = IgnoreUser.objects.all()
     permission_classes = [IsAuthenticateAndIsOwner, ]
 
 
-class CountryCreateView(mixins.ListModelMixin,
-                        GenericViewSet):
+class CountryListView(mixins.ListModelMixin,
+                      GenericViewSet):
+    """
+    API для просмотра стран
+    Доступно только администратору
+    """
     serializer_class = CountrySerializer
     queryset = Country.objects.all()
     permission_classes = [IsAdminUser, ]
