@@ -11,7 +11,7 @@ from .models import (
 class ChapterAdmin(ModelAdmin):
     list_display = ('title', 'slug')
     search_fields = ('title',)
-    readonly_fields = ('title', 'slug')
+    readonly_fields = ('slug',)
 
 
 @admin.register(SubSection)

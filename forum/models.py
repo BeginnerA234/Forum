@@ -16,7 +16,6 @@ class Chapter(models.Model):
                             blank=True, unique=True)
 
     class Meta:
-        ordering = ['title']
         verbose_name = 'Раздел'
         verbose_name_plural = 'Разделы'
 
@@ -24,8 +23,7 @@ class Chapter(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        if not self.id:
-            self.slug = gen_slug(self.title)
+        self.slug = gen_slug(self.title)
         super().save(*args, **kwargs)
 
 
@@ -45,14 +43,12 @@ class SubSection(models.Model):
     class Meta:
         verbose_name = 'Подразел'
         verbose_name_plural = 'Подразделы'
-        ordering = ['id']
 
     def __str__(self):
         return self.title
 
     def save(self, *args, **kwargs):
-        if not self.id:
-            self.slug = gen_slug(self.title)
+        self.slug = gen_slug(self.title)
         super().save(*args, **kwargs)
 
 
@@ -78,7 +74,6 @@ class Theme(models.Model):
     update = models.DateTimeField(verbose_name='Дата последнего обновления', auto_now=True)
 
     class Meta:
-        ordering = ['update']
         verbose_name = 'Тема'
         verbose_name_plural = 'Темы'
 
@@ -86,8 +81,7 @@ class Theme(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        if not self.id:
-            self.slug = gen_slug(self.title)
+        self.slug = gen_slug(self.title)
         super().save(*args, **kwargs)
 
 
@@ -110,7 +104,6 @@ class Comment(models.Model):
     update = models.DateTimeField(verbose_name='Дата последнего обновления', auto_now=True)
 
     class Meta:
-        ordering = ['created']
         verbose_name = 'Комментарий'
         verbose_name_plural = 'Комментарии'
 
