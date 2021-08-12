@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from forum.models import Chapter, SubSection, Theme, Comment
+from custom_user.api.serializers import UserFieldSerializer
+from forum.models import Chapter, SubSection, Theme
 
 
 class SubSectionSerializer(serializers.ModelSerializer):
     """
-    Сериализатор подразделов для просмотра.
-    Создавать имеет право только администратор.
+    Сериализатор подразделов
     """
 
     class Meta:
@@ -18,13 +18,12 @@ class SubSectionSerializer(serializers.ModelSerializer):
         )
 
 
-class ChapterAndSubSectionSerializer(serializers.ModelSerializer):
+class ChapterSerializer(serializers.ModelSerializer):
     """
-    Сериализатор разделов для просмотра.
-    Создавать имеет право только администратор.
+    Сериализатор разделов c подразделами
     """
 
-    chapter = SubSectionSerializer(read_only=True, many=True)
+    sub_sections = SubSectionSerializer(source='chapter', read_only=True, many=True)
 
     class Meta:
         model = Chapter
@@ -32,53 +31,27 @@ class ChapterAndSubSectionSerializer(serializers.ModelSerializer):
             'id',
             'title',
             'slug',
-            'chapter'
-        )
-
-
-class CreateThemeSerializer(serializers.ModelSerializer):
-    """
-    Сериализатор для создания тем.
-    Создавать имеет право активный пользователь (не в бане).
-    """
-
-    class Meta:
-        model = Theme
-        fields = (
-            'creator',
-            'sub_section',
-            'title',
-            'content',
+            'sub_sections'
         )
 
 
 class ThemeSerializer(serializers.ModelSerializer):
-    """
-    Сериализатор тем с выводом связанных комментариев
-    """
+    creator = UserFieldSerializer(read_only=True)
+    last_comment = serializers.SerializerMethodField(read_only=True)
+    comment_count = serializers.IntegerField(read_only=True)
 
     class Meta:
         model = Theme
         fields = (
+            'id',
             'creator',
-            'sub_section',
             'title',
-            'content',
+            'slug',
+            'created',
+            'comment_count',
+            'last_comment'
         )
 
-
-class CreateCommentSerializer(serializers.ModelSerializer):
-    """
-    Сериализатор создания комментариев.
-    Комментарии можно оставлять только в темах.
-    Реализованно цитирование множества других комментариев
-    """
-
-    class Meta:
-        model = Comment
-        fields = (
-            'creator',
-            'theme',
-            'comment',
-            'quote',  # возможность цитирования
-        )
+    @staticmethod
+    def get_last_comment(instance):
+        return instance.comment_set.values('creator', 'update').last()

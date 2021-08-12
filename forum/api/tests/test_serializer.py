@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from forum.api.serializers import ChapterAndSubSectionSerializer
+from forum.api.serializers import ChapterSerializer
 from forum.models import Chapter, SubSection
 
 
@@ -17,7 +17,7 @@ class ChapterSerializerTestCase(TestCase):
 
     def test_ok(self):
         queryset = Chapter.objects.all().prefetch_related('chapter').order_by('id')
-        data = ChapterAndSubSectionSerializer(queryset, many=True).data
+        data = ChapterSerializer(queryset, many=True).data
 
         chp1_section1, chp1_section2, chp1_section3 = list(self.chapter_1.chapter.all())
         chp2_section1, chp2_section2 = list(self.chapter_2.chapter.all())
@@ -27,7 +27,7 @@ class ChapterSerializerTestCase(TestCase):
                 'id': self.chapter_1.id,
                 'title': self.chapter_1.title,
                 'slug': self.chapter_1.slug,
-                'chapter': [
+                'sub_sections': [
                     {
                         'id': chp1_section1.id,
                         'title': chp1_section1.title,
@@ -49,7 +49,7 @@ class ChapterSerializerTestCase(TestCase):
                 'id': self.chapter_2.id,
                 'title': self.chapter_2.title,
                 'slug': self.chapter_2.slug,
-                'chapter': [
+                'sub_sections': [
                     {
                         'id': chp2_section1.id,
                         'title': chp2_section1.title,
