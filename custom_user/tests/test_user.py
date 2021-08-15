@@ -44,6 +44,7 @@ class TestUser(TestCase):
         """
         try:
             # User.objects.model -> full_clean необходимо вызвать
+            # todo: nonummy.ultricies.ornare@malesuada.co.uk написать регулярку чтобы подобное говно не проходило
             user = User.objects.create_user(username='asdasd@mail.ru', email='proverka1@gmail.com',
                                             password='proverka3004')
             if user:
