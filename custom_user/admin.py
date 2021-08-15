@@ -8,7 +8,7 @@ from .models import CustomUser, Country, IgnoreUser
 
 @admin.register(CustomUser)
 class CustomUserAdmin(UserAdmin):
-    list_display = ('username', 'email', 'first_name', 'last_name', 'is_staff', 'country', 'is_blocked')
+    list_display = ('username', 'first_name', 'last_name', 'is_staff', 'country', 'is_blocked')
     fieldsets = (
         (None, {'fields': ('username', 'password')}),
         (_('Personal info'), {'fields': ('first_name', 'last_name', 'email', 'country', 'phone')}),
@@ -26,6 +26,7 @@ class CustomUserAdmin(UserAdmin):
         }),
     )
     list_editable = ('is_blocked',)
+    list_filter = ('is_blocked', 'is_staff')
 
 
 @admin.register(IgnoreUser)
