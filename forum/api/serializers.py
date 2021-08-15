@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from custom_user.api.serializers import UserFieldSerializer
-from forum.models import Chapter, SubSection, Theme
+from forum.models import Chapter, SubSection, Theme, Comment
 
 
 class SubSectionSerializer(serializers.ModelSerializer):
@@ -54,4 +54,5 @@ class ThemeSerializer(serializers.ModelSerializer):
 
     @staticmethod
     def get_last_comment(instance):
-        return instance.comment_set.values('creator', 'update').last()
+        # todo: need fix n+1 query
+        return instance.comment_set.values('creator', 'creator__username', 'update').last()
