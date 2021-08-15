@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  django:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/usr/src/app/
+    env_file:
+      - .env
+    environment:
+      - DJANGO_DATABASE_HOST=postgres
+    depends_on:
+      - postgres
+
+  postgres:
+    build:
+      context: docker_files/postgres/
+      dockerfile: Dockerfile
+    ports:
+      - 5431:5432
+    volumes:
+      - ./docker_files/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+
+  nginx:
+    build:
+      context: docker_files/nginx/
+      dockerfile: Dockerfile
+    volumes:
+      - ./static/:/static
+      - ./media:/usr/src/app/media
+    ports:
+      - 80:80
+    depends_on:
+      - django
